@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 100vw;
+}
+
+@font-face {
+  font-family: light;
+  src: url(./fonts/light.ttf);
+}
+
+@font-face {
+  font-family: mid;
+  src: url(./fonts/mid.ttf);
+}
+
+@font-face {
+  font-family: bold;
+  src: url(./fonts/bold.ttf);
+}
+
+.btp-button {
+  position: absolute;
+  z-index: 3;
+  bottom: 0.5vh;
+  left: 0;
+  width: 10vw;
+  margin-left: 45vw;
+  outline: none;
+  cursor: pointer;
+  background-color: #efefef;
+  border: 2px solid black;
+  height: 4vh;
+  font-family: mid;
+  font-size: 2vh;
+}
